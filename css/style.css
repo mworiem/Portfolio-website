@@ -141,9 +141,14 @@ body {
     .heading-tertiary {
       padding-top: 0; } }
 
-.paragraph {
-  font-size: 1.6rem; }
-  .paragraph:not(last-child) {
+.paragraph,
+ul,
+li {
+  font-size: 1.5rem;
+  list-style: none; }
+  .paragraph:not(last-child),
+  ul:not(last-child),
+  li:not(last-child) {
     margin-bottom: 0rem; }
 
 .u-center-text {
@@ -358,7 +363,8 @@ body {
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); } }
     .composition__photo--p1 {
       width: 90%;
-      top: 6rem; }
+      height: 20rem;
+      top: 2rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p1 {
           left: auto;
