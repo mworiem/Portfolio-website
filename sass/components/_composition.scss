@@ -42,9 +42,22 @@
         top: 0.5rem;
       }
     }
+    &--p22 {
+      width: 90%;
+      height: 15rem;
+      top: 6rem;
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
     &--p3 {
       width: 90%;
-      top: 6rem;
+      top: 3rem;
+      height: 15rem;
       @include respond(tab-port) {
         left: auto;
         margin-bottom: 3rem;
@@ -56,6 +69,44 @@
     &--p4 {
       width: 90%;
       top: 6rem;
+      height: 15rem;
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &--p5 {
+      width: 90%;
+      height: 15rem;
+      top: 6rem;
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &--p6 {
+      width: 90%;
+      top: 1.3rem;
+      height: 15rem;
+
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &--p7 {
+      width: 90%;
+      top: 3rem;
+      height: 15rem;
       @include respond(tab-port) {
         left: auto;
         margin-bottom: 3rem;
