@@ -2,10 +2,14 @@
   "name": "sass",
   "version": "1.0.0",
   "description": "Sass portfolio project",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
+<<<<<<< HEAD
     "devserver": "live-server  --port=8080 --no-browser",
+=======
+    "devserver": " live-server --port=8080 --no-browser",
+>>>>>>> master
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
@@ -24,5 +28,8 @@
     "postcss": "^8.3.0",
     "postcss-cli": "^8.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.7"
+  }
 }

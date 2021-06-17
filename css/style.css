@@ -81,8 +81,13 @@ body {
       padding: 0; } }
 
 body {
+<<<<<<< HEAD
   font-family: sans-serif;
   font-weight: 500;
+=======
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+>>>>>>> master
   /* font-size: 16px; */
   line-height: 1.7;
   color: #777; }
@@ -141,6 +146,7 @@ body {
     .heading-tertiary {
       padding-top: 0; } }
 
+<<<<<<< HEAD
 .paragraph,
 ul,
 li {
@@ -149,6 +155,11 @@ li {
   .paragraph:not(last-child),
   ul:not(last-child),
   li:not(last-child) {
+=======
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(last-child) {
+>>>>>>> master
     margin-bottom: 0rem; }
 
 .u-center-text {
@@ -363,8 +374,12 @@ li {
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); } }
     .composition__photo--p1 {
       width: 90%;
+<<<<<<< HEAD
       height: 20rem;
       top: 2rem; }
+=======
+      top: 6rem; }
+>>>>>>> master
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p1 {
           left: auto;
@@ -380,6 +395,7 @@ li {
           margin-bottom: 3rem;
           width: 100%;
           top: 0.5rem; } }
+<<<<<<< HEAD
     .composition__photo--p22 {
       width: 90%;
       height: 15rem;
@@ -394,6 +410,11 @@ li {
       width: 90%;
       top: 3rem;
       height: 15rem; }
+=======
+    .composition__photo--p3 {
+      width: 90%;
+      top: 6rem; }
+>>>>>>> master
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p3 {
           left: auto;
@@ -402,6 +423,7 @@ li {
           top: 0.5rem; } }
     .composition__photo--p4 {
       width: 90%;
+<<<<<<< HEAD
       top: 6rem;
       height: 15rem; }
       @media only screen and (max-width: 56.25em) {
@@ -436,6 +458,11 @@ li {
       height: 15rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p7 {
+=======
+      top: 6rem; }
+      @media only screen and (max-width: 56.25em) {
+        .composition__photo--p4 {
+>>>>>>> master
           left: auto;
           margin-bottom: 3rem;
           width: 100%;
