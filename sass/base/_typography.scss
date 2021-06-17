@@ -1,12 +1,12 @@
 body {
-  font-family: sans-serif;
-  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: $color-grey-dark;
+  // color: $color-grey-dark;
 }
 main {
-  // color: $color-grey-dark;
+  color: $color-grey-dark;
   // z-index: 100000;
 }
 
@@ -86,12 +86,9 @@ main {
     padding-top: 0;
   }
 }
-.paragraph,
-ul,
-li {
-  font-size: 1.5rem;
+.paragraph {
+  font-size: $default-font-size;
   &:not(last-child) {
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
   }
-  list-style: none;
 }

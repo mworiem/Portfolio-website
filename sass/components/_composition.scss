@@ -20,8 +20,7 @@
     &--p1 {
       // left: auto;
       width: 90%;
-      height: 20rem;
-      top: 2rem;
+      top: 6rem;
       @include respond(tab-port) {
         // display: none;
         left: auto;
@@ -42,22 +41,9 @@
         top: 0.5rem;
       }
     }
-    &--p22 {
-      width: 90%;
-      height: 15rem;
-      top: 6rem;
-      @include respond(tab-port) {
-        left: auto;
-        margin-bottom: 3rem;
-        width: 100%;
-
-        top: 0.5rem;
-      }
-    }
     &--p3 {
       width: 90%;
-      top: 3rem;
-      height: 15rem;
+      top: 6rem;
       @include respond(tab-port) {
         left: auto;
         margin-bottom: 3rem;
@@ -69,44 +55,6 @@
     &--p4 {
       width: 90%;
       top: 6rem;
-      height: 15rem;
-      @include respond(tab-port) {
-        left: auto;
-        margin-bottom: 3rem;
-        width: 100%;
-
-        top: 0.5rem;
-      }
-    }
-    &--p5 {
-      width: 90%;
-      height: 15rem;
-      top: 6rem;
-      @include respond(tab-port) {
-        left: auto;
-        margin-bottom: 3rem;
-        width: 100%;
-
-        top: 0.5rem;
-      }
-    }
-    &--p6 {
-      width: 90%;
-      top: 1.3rem;
-      height: 15rem;
-
-      @include respond(tab-port) {
-        left: auto;
-        margin-bottom: 3rem;
-        width: 100%;
-
-        top: 0.5rem;
-      }
-    }
-    &--p7 {
-      width: 90%;
-      top: 3rem;
-      height: 15rem;
       @include respond(tab-port) {
         left: auto;
         margin-bottom: 3rem;
